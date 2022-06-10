@@ -1,0 +1,10 @@
+#所又静态资源在访问时都需要加上前缀 /res
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+  #启用该方法会导致welcome page前需要前缀，故不启动
+
+#指定haha为静态资源路径，其他路径下的静态资源会失效
+#  web:
+#    resources:
+#     static-locations: [classpath:/haha/]
